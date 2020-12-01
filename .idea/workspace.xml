@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e1db595-038e-4b62-90b3-8315b75ebb74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/node-server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/helpers/hostname.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/helpers/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/helpers/networkInterface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/helpers/serverAddress.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/urlParser.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trial.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodemon.json" beforeDir="false" afterPath="$PROJECT_DIR$/nodemon.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__tests__/index.test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/__tests__/add.test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/add.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +25,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -64,6 +40,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -73,7 +50,17 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Jest.jest.config.ts">
+    <configuration name="jest.config.ts" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/jest.config.ts" />
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -84,6 +71,10 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Jest.jest.config.ts" />
+      <item itemvalue="npm.dev" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
@@ -102,7 +93,7 @@
       <updated>1606769376533</updated>
       <workItem from="1606769380546" duration="9000" />
       <workItem from="1606769409938" duration="3562000" />
-      <workItem from="1606842823626" duration="3546000" />
+      <workItem from="1606842823626" duration="4667000" />
     </task>
     <servers />
   </component>
@@ -113,34 +104,38 @@
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="300" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606849087962">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="300" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1606849087962" />
     <state x="606" y="180" key="#com.intellij.ide.util.MemberChooser" timestamp="1606772150517">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="606" y="180" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1606772150517" />
-    <state x="100" y="100" width="1480" height="850" key="DiffContextDialog" timestamp="1606848156984">
+    <state x="100" y="100" width="1480" height="850" key="DiffContextDialog" timestamp="1606849324943">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="100" y="100" width="1480" height="850" key="DiffContextDialog/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1606848156984" />
-    <state width="1654" height="331" key="GridCell.Tab.0.bottom" timestamp="1606843955313">
+    <state x="100" y="100" width="1480" height="850" key="DiffContextDialog/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1606849324943" />
+    <state width="1654" height="282" key="GridCell.Tab.0.bottom" timestamp="1606849099282">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1654" height="349" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606771683660" />
-    <state width="1654" height="331" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1606843955313" />
-    <state width="1654" height="331" key="GridCell.Tab.0.center" timestamp="1606843955311">
+    <state width="1654" height="282" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1606849099282" />
+    <state width="1654" height="282" key="GridCell.Tab.0.center" timestamp="1606849099280">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1654" height="349" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606771683659" />
-    <state width="1654" height="331" key="GridCell.Tab.0.center/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1606843955311" />
-    <state width="1654" height="331" key="GridCell.Tab.0.left" timestamp="1606843955310">
+    <state width="1654" height="282" key="GridCell.Tab.0.center/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1606849099280" />
+    <state width="1654" height="282" key="GridCell.Tab.0.left" timestamp="1606849099279">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1654" height="349" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606771683658" />
-    <state width="1654" height="331" key="GridCell.Tab.0.left/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1606843955310" />
-    <state width="1654" height="331" key="GridCell.Tab.0.right" timestamp="1606843955312">
+    <state width="1654" height="282" key="GridCell.Tab.0.left/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1606849099279" />
+    <state width="1654" height="282" key="GridCell.Tab.0.right" timestamp="1606849099281">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1654" height="349" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606771683659" />
-    <state width="1654" height="331" key="GridCell.Tab.0.right/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1606843955312" />
+    <state width="1654" height="282" key="GridCell.Tab.0.right/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1606849099281" />
     <state width="1654" height="331" key="GridCell.Tab.1.bottom" timestamp="1606843955321">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -205,10 +200,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="239" y="76" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1606769442378" />
-    <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup" timestamp="1606847854923">
+    <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup" timestamp="1606849390216">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1606771533987" />
-    <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1606847854923" />
+    <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1606849390216" />
   </component>
 </project>
