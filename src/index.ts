@@ -1,6 +1,4 @@
-import { add } from './utils/add';
+import { MyServer, MyServerOptions } from './lib/server';
 
-const s = add(2, 2);
-
-// eslint-disable-next-line no-console
-console.log(s);
+export const CustomServer = (options: MyServerOptions) =>
+  MyServer.instance(options);
